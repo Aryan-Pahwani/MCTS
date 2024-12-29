@@ -1,5 +1,7 @@
 from random import choice
 from collections import namedtuple
+from MCTS import MCTS
+from Node import Node
 
 TTT = namedtuple("TicTacToe", "winner is_terminal turn table")
 
